@@ -8,8 +8,8 @@ Run in PowerShell:
 winget install OpenJS.NodeJS.LTS
 ```
 open a new powershell
-
-```$env:PORT=8090
+```
+$env:PORT=8090
 node src/server.js
 ```
 
