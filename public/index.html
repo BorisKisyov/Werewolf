@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mafia Night Host</title>
+    <link rel="stylesheet" href="/styles.css?v=22">
+    <script defer src="/app.js?v=22"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <img src="/assets/moon.svg" alt="Moon over village" class="brand-mark">
+      <div class="brand-copy">
+        <p class="eyebrow">Local Wi-Fi game</p>
+        <h1>Mafia Night Host</h1>
+      </div>
+      <div id="phase-pill" class="phase-pill">Loading</div>
+      <div id="timer-pill" class="timer-pill" hidden></div>
+      <button id="title-toggle" class="title-toggle secondary" type="button" data-action="toggle-title">Hide title</button>
+    </header>
+
+    <main id="app" class="app-shell">
+      <section class="loading">Preparing the village...</section>
+    </main>
+
+    <div id="toast" class="toast" hidden></div>
+  </body>
+</html>

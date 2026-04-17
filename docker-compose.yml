@@ -1,0 +1,9 @@
+services:
+  mafia-game:
+    build: .
+    container_name: mafia-game
+    restart: unless-stopped
+    ports:
+      - "8090:3000"
+    volumes:
+      - ./public:/app/public:ro
