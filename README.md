@@ -6,6 +6,11 @@ Run in PowerShell:
 
 ```powershell
 winget install OpenJS.NodeJS.LTS
-$env:PORT=8090
+```
+open a new powershell
+
+```$env:PORT=8090
 node src/server.js
 ```
+
+check http://localhost:8090
